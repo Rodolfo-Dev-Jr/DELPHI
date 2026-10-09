@@ -11,9 +11,9 @@ var
 
 begin
 
-  Writeln('Qual e o seu nome?');
+  Write('Qual e o seu nome? ');
   Readln(nome);
-  Write('Prazer, ', nome, '!');
+  Write('Ola, ', nome, '!');
   Readln;
 
 end.
